@@ -1,0 +1,6 @@
+requests
+python-telegram-bot==13.15
+pandas
+schedule
+python-dotenv
+SQLAlchemy
