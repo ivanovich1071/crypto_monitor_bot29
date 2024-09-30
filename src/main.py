@@ -1,12 +1,13 @@
 import logging
+import asyncio
 from src.config import TELEGRAM_BOT_TOKEN
 from src.handlers import setup_handlers
 from src.database import init_db
 from src.notifier import job
 import schedule
-import time
+from telegram.ext import Application
 
-def main():
+async def main():
     # Настройка логирования
     logging.basicConfig(
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -21,12 +22,17 @@ def main():
     # Инициализация базы данных
     init_db()
 
-    # Настройка бота
-    from src.telegram_bot import updater
-    setup_handlers(updater)
+    # Инициализация бота через Application
+    application = Application.builder().token(TELEGRAM_BOT_TOKEN).build()
+
+    # Инициализация приложения (обязательный шаг в версии 21.x)
+    await application.initialize()
+
+    # Настройка обработчиков
+    setup_handlers(application)
 
     # Запуск бота
-    updater.start_polling()
+    await application.start()
     logger.info("Бот запущен.")
 
     # Настройка планировщика задач
@@ -35,10 +41,10 @@ def main():
     try:
         while True:
             schedule.run_pending()
-            time.sleep(1)
+            await asyncio.sleep(1)
     except KeyboardInterrupt:
-        updater.stop()
+        await application.stop()
         logger.info("Бот остановлен.")
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
