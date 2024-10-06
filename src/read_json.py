@@ -3,7 +3,13 @@ import logging
 import json
 from requests.exceptions import RequestException
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
-from src.config import POLONIEX_API_URL  # URL для тикеров 24 часов: https://api.poloniex.com/markets/ticker24h
+from dotenv import load_dotenv
+import os
+
+# Загрузка переменных окружения из .env файла
+load_dotenv()
+
+POLONIEX_API_URL = os.getenv('POLONIEX_API_URL')
 
 # Настройка логирования для этого модуля
 logger = logging.getLogger(__name__)
