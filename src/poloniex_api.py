@@ -21,7 +21,7 @@ def fetch_ticker_data():
     :raises: RequestException, ValueError
     """
     url = f"{POLONIEX_API_URL}?command=returnTicker"
-    response = requests.get(url, timeout=10)
+    response = requests.get(url, timeout=600)
     response.raise_for_status()
     return response.json()
 
@@ -29,12 +29,16 @@ def fetch_ticker_data():
 def get_ticker_data():
     """
     Получает данные о тикерах с Poloniex API с обработкой ошибок и повторными попытками.
-
     :return: Словарь с данными тикеров или пустой словарь при ошибке.
     """
     try:
         data = fetch_ticker_data()
         logger.info("Успешно получены данные тикеров с Poloniex.")
+
+        # Выводим данные в консоль для проверки
+        print("Содержимое JSON-ответа:")
+        print(json.dumps(data, indent=4))  # Красивый вывод JSON с отступами
+
         return data
     except RequestException as e:
         logger.error(f"Ошибка при запросе к Poloniex API после повторных попыток: {e}")
