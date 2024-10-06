@@ -1,13 +1,14 @@
 import logging
-
 from src.database import get_dropped_coins, add_dropped_coin, remove_dropped_coin
+from src.telegram_bot import send_telegram_message  # Импортируем функцию отправки сообщений
 from src.config import POLONIEX_API_URL
 
 logger = logging.getLogger(__name__)
 
-def find_significant_drops(ticker_data, user_thresholds, chat_id):
+
+async def find_significant_drops(ticker_data, user_thresholds, chat_id):
     """
-    Найти монеты с падением на заданные пороги и обнаружить их восстановление.
+    Найти монеты с падением на заданные пороги и обнаружить их восстановление, с отправкой уведомлений.
 
     :param ticker_data: Данные тикера Poloniex
     :param user_thresholds: Список порогов (например, [50, 30, 10])
@@ -39,6 +40,12 @@ def find_significant_drops(ticker_data, user_thresholds, chat_id):
                             "volume": volume
                         })
                         logger.info(f"Монета {coin} упала на {threshold}%, добавлена в отслеживаемые.")
+
+                    # Отправляем уведомление о новом падении
+                    message = f"📉 Монета {coin} упала более чем на {threshold}%.\nОбъем торгов: {volume}"
+                    await send_telegram_message(chat_id, message)
+                    logger.info(f"Отправлено уведомление о падении {coin} на {threshold}% для пользователя {chat_id}.")
+
                     break  # Если монета уже добавлена для более высокого порога, не добавляем для меньших
 
             # Проверка на восстановление
@@ -52,4 +59,5 @@ def find_significant_drops(ticker_data, user_thresholds, chat_id):
             logger.error(f"Ошибка обработки данных для монеты {coin}.")
             continue
 
+    # Возвращаем результаты
     return new_drops, recovered_coins
