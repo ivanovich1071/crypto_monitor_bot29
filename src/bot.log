@@ -1019,3 +1019,1228 @@ TypeError: cannot unpack non-iterable coroutine object
 2024-10-06 19:42:36,860 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
 2024-10-06 19:42:47,244 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
 2024-10-06 19:42:57,455 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:06:47,017 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-07 16:06:47,108 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-07 16:06:47,112 - telegram.ext.Application - INFO - Application started
+2024-10-07 16:06:57,452 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:06:59,512 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:06:59,813 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 16:07:01,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:07:01,987 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 16:07:02,113 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 16:07:05,705 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:07:05,844 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 16:07:07,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:07:07,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 16:07:07,625 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 16:07:17,422 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:07:27,512 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:07:37,603 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:07:47,700 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:07:57,775 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:08:07,865 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:08:17,953 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:08:28,055 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:08:38,179 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:08:48,264 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:08:58,356 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:09:08,439 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:09:18,525 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:09:28,605 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:09:38,749 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:09:48,850 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:09:58,941 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:10:09,038 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:10:19,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:10:29,214 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:10:39,323 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:10:49,423 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:10:59,531 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:11:09,633 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:11:19,719 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:11:29,836 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:11:39,922 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:11:50,003 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:12:00,106 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:12:10,188 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:12:20,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:12:30,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:12:40,457 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:12:50,577 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:13:00,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:13:10,744 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:13:20,834 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:13:30,947 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:13:41,031 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:13:43,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:13:44,315 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 16:13:44,320 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\venv\Lib\site-packages\telegram\ext\_application.py", line 1335, in process_update
+    await coroutine
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\src\handlers.py", line 59, in report
+    new_drops, recovered_coins = await find_significant_drops(ticker_data, thresholds, chat_id)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\src\data_processing.py", line 18, in find_significant_drops
+    for coin, data in ticker_data.items():
+                      ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'items'
+2024-10-07 16:13:54,443 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:14:04,523 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:14:14,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:14:24,685 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:14:34,765 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:14:44,844 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:14:54,927 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:15:05,021 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:15:15,112 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:15:25,200 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:15:35,282 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:15:45,366 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:15:55,441 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:16:05,520 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:19:14,073 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-07 16:19:14,171 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-07 16:19:14,174 - telegram.ext.Application - INFO - Application started
+2024-10-07 16:19:24,414 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:19:25,336 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:19:25,604 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 16:19:27,374 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:19:27,475 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 16:19:27,585 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 16:19:30,338 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:19:30,470 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 16:19:31,986 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:19:32,108 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 16:19:32,247 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 16:19:42,071 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:19:52,160 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:20:02,247 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:20:12,345 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:20:22,431 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:20:32,515 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:20:42,601 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:20:52,693 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:21:02,780 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:21:12,869 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:21:22,942 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:21:33,039 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:21:43,122 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:21:53,213 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:22:03,297 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:22:13,408 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:22:23,535 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:22:33,614 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:22:43,696 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:22:53,807 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:23:04,002 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:23:14,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:23:24,181 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:23:34,313 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:23:44,406 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:23:54,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:24:04,598 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:24:14,698 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:24:24,784 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:24:34,860 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:24:44,947 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:24:49,314 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:24:50,355 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 16:24:50,801 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 16:25:00,466 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:25:10,543 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:25:20,650 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:25:30,754 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:25:40,847 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:25:50,928 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:36:49,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-07 16:36:50,218 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-07 16:36:50,223 - telegram.ext.Application - INFO - Application started
+2024-10-07 16:36:57,360 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:36:58,208 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 16:36:59,880 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:37:00,019 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 16:37:00,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 16:37:02,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:37:02,513 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 16:37:03,818 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:37:04,041 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 16:37:04,268 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 16:37:13,905 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:37:23,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:37:34,078 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:37:44,177 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:37:54,255 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:38:04,378 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:38:04,765 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:38:05,776 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 16:38:05,812 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 16:38:06,035 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:38:06,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 16:38:07,082 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 16:38:07,130 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 16:38:07,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 16:38:16,118 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:38:26,203 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:38:36,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:38:46,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:38:56,575 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:39:06,740 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:39:16,829 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:39:26,907 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:39:36,994 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:39:47,087 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:39:57,182 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:40:07,265 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:40:17,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:40:27,469 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:40:37,557 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:40:47,674 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:40:57,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:41:07,864 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:41:17,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:41:28,047 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:41:38,137 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:41:48,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:41:58,325 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:42:08,419 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:42:18,784 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:42:28,881 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:42:38,960 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:42:49,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:42:59,176 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:48:40,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-07 16:48:40,860 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-07 16:48:40,867 - telegram.ext.Application - INFO - Application started
+2024-10-07 16:48:46,912 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:48:47,251 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 16:48:48,963 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:48:49,064 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 16:48:49,187 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 16:48:51,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:48:51,644 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 16:48:53,050 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:48:53,450 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 16:48:53,572 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 16:49:03,130 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:49:13,208 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:49:23,286 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:49:33,375 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:49:43,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:49:53,540 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:50:03,622 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:50:13,697 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:50:23,786 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:50:33,877 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:50:43,948 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:50:54,036 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:51:04,126 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:51:14,200 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:51:24,284 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:51:34,359 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:51:44,472 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:51:54,546 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:52:04,622 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:52:14,704 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:52:24,799 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:52:34,893 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:52:44,986 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:52:55,068 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:53:05,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:53:15,247 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:53:25,346 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:53:35,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:53:45,518 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:53:55,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:54:05,694 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:54:15,772 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:54:25,863 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:54:35,950 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:54:38,127 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:54:39,129 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 16:54:39,188 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 16:54:39,204 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\venv\Lib\site-packages\telegram\ext\_application.py", line 1335, in process_update
+    await coroutine
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\src\handlers.py", line 59, in report
+    new_drops, recovered_coins = await find_significant_drops(ticker_data, thresholds, chat_id)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\src\data_processing.py", line 42, in find_significant_drops
+    await send_telegram_message(chat_id, message)
+TypeError: object NoneType can't be used in 'await' expression
+2024-10-07 16:54:40,607 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:54:41,479 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 16:54:41,515 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 16:54:41,516 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\venv\Lib\site-packages\telegram\ext\_application.py", line 1335, in process_update
+    await coroutine
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\src\handlers.py", line 59, in report
+    new_drops, recovered_coins = await find_significant_drops(ticker_data, thresholds, chat_id)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\crypto_monitor_bot29\src\data_processing.py", line 42, in find_significant_drops
+    await send_telegram_message(chat_id, message)
+TypeError: object NoneType can't be used in 'await' expression
+2024-10-07 16:54:51,619 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:55:01,758 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:55:11,863 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:55:21,965 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:55:32,049 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:55:42,144 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:55:52,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:56:02,301 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:56:12,387 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:56:22,477 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:56:32,569 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:56:42,672 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:56:52,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:57:02,864 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:57:12,956 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:57:23,050 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:57:33,143 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:57:43,225 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:57:53,311 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:58:03,393 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:58:13,705 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:58:23,798 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:58:33,898 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:58:43,989 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:58:54,082 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:59:04,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:59:14,295 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:59:24,385 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:59:34,464 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:59:44,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 16:59:54,623 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:12:30,174 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-07 17:12:30,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-07 17:12:30,260 - telegram.ext.Application - INFO - Application started
+2024-10-07 17:12:40,597 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:12:50,689 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:13:00,795 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:13:06,529 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:13:07,117 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:13:08,956 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:13:09,041 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 17:13:09,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 17:13:11,210 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:13:11,589 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:13:12,502 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:13:12,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 17:13:12,737 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 17:13:22,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:13:32,723 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:13:42,873 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:13:52,974 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:14:03,058 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:14:13,146 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:14:23,244 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:14:33,356 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:14:43,480 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:14:53,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:15:03,683 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:15:13,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:15:23,918 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:15:33,998 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:15:44,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:15:54,225 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:16:04,311 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:16:14,404 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:16:24,498 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:16:34,595 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:16:35,999 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:16:36,853 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 17:16:36,928 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 17:16:37,417 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:37,420 - src.data_processing - INFO - Отправлено уведомление о падении CVC_BTC на 10.0% для пользователя 402199357.
+2024-10-07 17:16:37,558 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:37,558 - src.data_processing - INFO - Отправлено уведомление о падении PRQ_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:37,699 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:37,700 - src.data_processing - INFO - Отправлено уведомление о падении SUSHI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:37,860 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:37,861 - src.data_processing - INFO - Отправлено уведомление о падении FUND_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:38,033 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:38,034 - src.data_processing - INFO - Отправлено уведомление о падении AKITA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:38,170 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:38,171 - src.data_processing - INFO - Отправлено уведомление о падении AXS_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:38,305 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:38,306 - src.data_processing - INFO - Отправлено уведомление о падении YGG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:38,720 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:38,721 - src.data_processing - INFO - Отправлено уведомление о падении WNCG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:38,866 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:38,868 - src.data_processing - INFO - Отправлено уведомление о падении RACA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:39,640 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:39,642 - src.data_processing - INFO - Отправлено уведомление о падении TITAN_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:40,203 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:40,204 - src.data_processing - INFO - Отправлено уведомление о падении LUNC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:40,653 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:40,655 - src.data_processing - INFO - Отправлено уведомление о падении STORJ_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:41,028 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:41,031 - src.data_processing - INFO - Отправлено уведомление о падении GPT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:41,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:41,345 - src.data_processing - INFO - Отправлено уведомление о падении WOJAK_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:41,590 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:41,591 - src.data_processing - INFO - Отправлено уведомление о падении LZM_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:41,871 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:41,872 - src.data_processing - INFO - Отправлено уведомление о падении CAPO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:42,051 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:42,052 - src.data_processing - INFO - Отправлено уведомление о падении LVL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:42,240 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:42,242 - src.data_processing - INFO - Отправлено уведомление о падении TITTY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:42,408 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:42,409 - src.data_processing - INFO - Отправлено уведомление о падении MOG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:42,548 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:42,550 - src.data_processing - INFO - Отправлено уведомление о падении SIX_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:42,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:42,731 - src.data_processing - INFO - Отправлено уведомление о падении BYTE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:42,971 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:42,972 - src.data_processing - INFO - Отправлено уведомление о падении FLIP_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:43,131 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:43,132 - src.data_processing - INFO - Отправлено уведомление о падении DOVI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:43,274 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:43,275 - src.data_processing - INFO - Отправлено уведомление о падении ZETA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:43,467 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:43,468 - src.data_processing - INFO - Отправлено уведомление о падении ICENETWORK_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:43,621 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:43,622 - src.data_processing - INFO - Отправлено уведомление о падении MOBY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:43,756 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:43,757 - src.data_processing - INFO - Отправлено уведомление о падении BEOBLE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:43,892 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:43,893 - src.data_processing - INFO - Отправлено уведомление о падении TYT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:44,031 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:44,033 - src.data_processing - INFO - Отправлено уведомление о падении SYNC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:44,186 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:44,187 - src.data_processing - INFO - Отправлено уведомление о падении NGL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:44,342 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:44,345 - src.data_processing - INFO - Отправлено уведомление о падении PNUT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:44,496 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:44,498 - src.data_processing - INFO - Отправлено уведомление о падении CWIF_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:44,637 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:44,637 - src.data_processing - INFO - Отправлено уведомление о падении GRUMPY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:44,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:44,822 - src.data_processing - INFO - Отправлено уведомление о падении HOBBES_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:44,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:44,972 - src.data_processing - INFO - Отправлено уведомление о падении PUPS_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:45,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:45,166 - src.data_processing - INFO - Отправлено уведомление о падении RIVUS_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:45,381 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:45,382 - src.data_processing - INFO - Отправлено уведомление о падении CREO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:45,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:45,554 - src.data_processing - INFO - Отправлено уведомление о падении REEE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:45,799 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:45,800 - src.data_processing - INFO - Отправлено уведомление о падении NOHAT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:45,957 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:45,958 - src.data_processing - INFO - Отправлено уведомление о падении HODL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:46,135 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:46,136 - src.data_processing - INFO - Отправлено уведомление о падении MOTHER_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:46,306 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:46,307 - src.data_processing - INFO - Отправлено уведомление о падении MOTH_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:46,451 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:46,453 - src.data_processing - INFO - Отправлено уведомление о падении BIRDDOG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:46,573 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:46,574 - src.data_processing - INFO - Отправлено уведомление о падении OPPIE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:46,714 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:46,715 - src.data_processing - INFO - Отправлено уведомление о падении MAGAPEPE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:46,863 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:46,864 - src.data_processing - INFO - Отправлено уведомление о падении BULEI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:46,971 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:46,972 - src.data_processing - INFO - Отправлено уведомление о падении CHIPPY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:47,046 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:16:47,117 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:47,118 - src.data_processing - INFO - Отправлено уведомление о падении DED_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:47,277 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:47,279 - src.data_processing - INFO - Отправлено уведомление о падении MOCA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:47,403 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:47,404 - src.data_processing - INFO - Отправлено уведомление о падении FISH_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:50,557 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:50,558 - src.data_processing - INFO - Отправлено уведомление о падении MOYA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:50,709 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:50,710 - src.data_processing - INFO - Отправлено уведомление о падении NEIRO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:50,843 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:50,844 - src.data_processing - INFO - Отправлено уведомление о падении DELON_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:51,011 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:51,012 - src.data_processing - INFO - Отправлено уведомление о падении TRONY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:51,429 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:51,430 - src.data_processing - INFO - Отправлено уведомление о падении YORI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:51,553 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:51,554 - src.data_processing - INFO - Отправлено уведомление о падении CATBSC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:51,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:51,677 - src.data_processing - INFO - Отправлено уведомление о падении MUNCAT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:51,814 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:51,815 - src.data_processing - INFO - Отправлено уведомление о падении TOPCAT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:51,943 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:51,943 - src.data_processing - INFO - Отправлено уведомление о падении MAD_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:52,070 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:52,071 - src.data_processing - INFO - Отправлено уведомление о падении FREEDUROV_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:52,209 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:52,210 - src.data_processing - INFO - Отправлено уведомление о падении EDOGE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:52,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:52,363 - src.data_processing - INFO - Отправлено уведомление о падении MOODENG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:52,806 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:52,809 - src.data_processing - INFO - Отправлено уведомление о падении DOGE1_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:52,948 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:52,950 - src.data_processing - INFO - Отправлено уведомление о падении HARAMBE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:53,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:53,095 - src.data_processing - INFO - Отправлено уведомление о падении SUNPUNK_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:53,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:53,230 - src.data_processing - INFO - Отправлено уведомление о падении VIKITA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:53,680 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:53,682 - src.data_processing - INFO - Отправлено уведомление о падении MORTI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:53,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:53,817 - src.data_processing - INFO - Отправлено уведомление о падении THREEAC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:53,945 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:53,946 - src.data_processing - INFO - Отправлено уведомление о падении SDOGE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:54,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:54,094 - src.data_processing - INFO - Отправлено уведомление о падении NEIROSOL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:16:54,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:16:57,169 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:17:07,267 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:17:17,351 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:17:27,468 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:17:37,574 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:17:47,681 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:17:57,780 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:17:58,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:17:58,455 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:00,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:18:00,495 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 17:18:00,647 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 17:18:10,455 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:18:14,185 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:18:14,941 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 17:18:14,986 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 17:18:15,345 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:15,348 - src.data_processing - INFO - Отправлено уведомление о падении CVC_BTC на 10.0% для пользователя 402199357.
+2024-10-07 17:18:15,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:15,467 - src.data_processing - INFO - Отправлено уведомление о падении PRQ_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:15,587 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:15,589 - src.data_processing - INFO - Отправлено уведомление о падении SUSHI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:15,699 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:15,700 - src.data_processing - INFO - Отправлено уведомление о падении FUND_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:15,808 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:15,810 - src.data_processing - INFO - Отправлено уведомление о падении AKITA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:15,922 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:15,923 - src.data_processing - INFO - Отправлено уведомление о падении AXS_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:16,046 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:16,048 - src.data_processing - INFO - Отправлено уведомление о падении YGG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:16,170 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:16,171 - src.data_processing - INFO - Отправлено уведомление о падении WNCG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:16,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:16,301 - src.data_processing - INFO - Отправлено уведомление о падении RACA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:16,408 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:16,409 - src.data_processing - INFO - Отправлено уведомление о падении TITAN_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:16,527 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:16,529 - src.data_processing - INFO - Отправлено уведомление о падении LUNC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:16,665 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:16,666 - src.data_processing - INFO - Отправлено уведомление о падении STORJ_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:16,794 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:16,795 - src.data_processing - INFO - Отправлено уведомление о падении GPT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:16,889 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:16,890 - src.data_processing - INFO - Отправлено уведомление о падении WOJAK_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:17,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:17,003 - src.data_processing - INFO - Отправлено уведомление о падении LZM_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:17,107 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:17,109 - src.data_processing - INFO - Отправлено уведомление о падении CAPO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:17,208 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:17,209 - src.data_processing - INFO - Отправлено уведомление о падении LVL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:17,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:17,335 - src.data_processing - INFO - Отправлено уведомление о падении STT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:17,442 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:17,444 - src.data_processing - INFO - Отправлено уведомление о падении TITTY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:17,561 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:17,564 - src.data_processing - INFO - Отправлено уведомление о падении MOG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:17,666 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:17,669 - src.data_processing - INFO - Отправлено уведомление о падении BYTE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:17,820 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:17,821 - src.data_processing - INFO - Отправлено уведомление о падении FLIP_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:17,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:17,954 - src.data_processing - INFO - Отправлено уведомление о падении DOVI_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:18,059 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:18,060 - src.data_processing - INFO - Отправлено уведомление о падении ZETA_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:18,152 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:18,153 - src.data_processing - INFO - Отправлено уведомление о падении ICENETWORK_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:18,259 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:18,260 - src.data_processing - INFO - Отправлено уведомление о падении MOBY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:18,376 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:18,376 - src.data_processing - INFO - Отправлено уведомление о падении BEOBLE_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:18,489 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:18,490 - src.data_processing - INFO - Отправлено уведомление о падении TYT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:18,601 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:18,602 - src.data_processing - INFO - Отправлено уведомление о падении SYNC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:18,734 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:18,734 - src.data_processing - INFO - Отправлено уведомление о падении NGL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:18,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:18,877 - src.data_processing - INFO - Отправлено уведомление о падении PNUT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:22,120 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:22,121 - src.data_processing - INFO - Отправлено уведомление о падении CWIF_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:22,285 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:22,285 - src.data_processing - INFO - Отправлено уведомление о падении GRUMPY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:22,608 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:22,609 - src.data_processing - INFO - Отправлено уведомление о падении HOBBES_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:22,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:22,764 - src.data_processing - INFO - Отправлено уведомление о падении PUPS_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:23,102 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:23,103 - src.data_processing - INFO - Отправлено уведомление о падении RIVUS_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:23,350 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:23,350 - src.data_processing - INFO - Отправлено уведомление о падении CREO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:23,743 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:23,745 - src.data_processing - INFO - Отправлено уведомление о падении REEE_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:23,919 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:23,921 - src.data_processing - INFO - Отправлено уведомление о падении NOHAT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:24,148 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:24,150 - src.data_processing - INFO - Отправлено уведомление о падении HODL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:24,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:24,455 - src.data_processing - INFO - Отправлено уведомление о падении MOTHER_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:24,622 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:24,623 - src.data_processing - INFO - Отправлено уведомление о падении MOTH_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:24,814 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:24,815 - src.data_processing - INFO - Отправлено уведомление о падении BIRDDOG_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:24,942 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:24,945 - src.data_processing - INFO - Отправлено уведомление о падении OPPIE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:25,097 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:18:25,104 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:25,105 - src.data_processing - INFO - Отправлено уведомление о падении MAGAPEPE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:25,275 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:25,277 - src.data_processing - INFO - Отправлено уведомление о падении BULEI_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:25,473 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:25,474 - src.data_processing - INFO - Отправлено уведомление о падении CHIPPY_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:25,616 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:25,617 - src.data_processing - INFO - Отправлено уведомление о падении DED_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:25,807 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:25,808 - src.data_processing - INFO - Отправлено уведомление о падении MOCA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:26,062 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:26,063 - src.data_processing - INFO - Отправлено уведомление о падении FISH_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:26,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:26,272 - src.data_processing - INFO - Отправлено уведомление о падении MOYA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:26,484 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:26,485 - src.data_processing - INFO - Отправлено уведомление о падении NEIRO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:26,763 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:26,764 - src.data_processing - INFO - Отправлено уведомление о падении DELON_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:27,129 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:27,130 - src.data_processing - INFO - Отправлено уведомление о падении TRONY_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:27,422 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:27,423 - src.data_processing - INFO - Отправлено уведомление о падении YORI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:27,664 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:27,666 - src.data_processing - INFO - Отправлено уведомление о падении CATBSC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:27,975 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:27,978 - src.data_processing - INFO - Отправлено уведомление о падении MUNCAT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:28,173 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:28,174 - src.data_processing - INFO - Отправлено уведомление о падении TOPCAT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:28,366 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:28,368 - src.data_processing - INFO - Отправлено уведомление о падении MAD_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:28,579 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:28,580 - src.data_processing - INFO - Отправлено уведомление о падении FREEDUROV_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:28,746 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:28,747 - src.data_processing - INFO - Отправлено уведомление о падении EDOGE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:28,895 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:28,896 - src.data_processing - INFO - Отправлено уведомление о падении MOODENG_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:29,010 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:29,012 - src.data_processing - INFO - Отправлено уведомление о падении DOGE1_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:29,107 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:29,108 - src.data_processing - INFO - Отправлено уведомление о падении HARAMBE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:29,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:29,209 - src.data_processing - INFO - Отправлено уведомление о падении SUNPUNK_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:29,329 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:29,330 - src.data_processing - INFO - Отправлено уведомление о падении VIKITA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:29,484 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:29,486 - src.data_processing - INFO - Отправлено уведомление о падении MORTI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:29,630 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:29,631 - src.data_processing - INFO - Отправлено уведомление о падении THREEAC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:29,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:29,753 - src.data_processing - INFO - Отправлено уведомление о падении SDOGE_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:18:29,864 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:29,866 - src.data_processing - INFO - Отправлено уведомление о падении NEIROSOL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:18:30,529 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:18:35,218 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:18:45,307 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:18:55,410 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:19:05,501 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:19:15,581 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:19:25,674 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:19:35,790 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:19:45,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:19:55,994 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:20:06,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:20:16,193 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:20:26,308 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:20:36,420 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:20:46,518 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:20:56,649 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:21:06,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:21:16,867 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:21:26,958 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:21:37,155 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:21:47,249 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:21:57,352 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:22:07,456 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:22:17,563 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:22:27,656 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:22:37,811 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:22:47,943 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:22:58,042 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:23:08,150 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:23:18,264 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:23:28,350 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:23:38,470 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:23:48,008 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:23:48,731 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:23:50,209 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:23:50,310 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 17:23:50,444 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 17:24:00,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:24:02,642 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:24:03,809 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 17:24:03,854 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 17:24:04,230 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:04,232 - src.data_processing - INFO - Отправлено уведомление о падении CVC_BTC на 10.0% для пользователя 402199357.
+2024-10-07 17:24:04,375 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:04,376 - src.data_processing - INFO - Отправлено уведомление о падении PRQ_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:04,482 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:04,482 - src.data_processing - INFO - Отправлено уведомление о падении SUSHI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:04,591 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:04,592 - src.data_processing - INFO - Отправлено уведомление о падении FUND_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:04,707 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:04,709 - src.data_processing - INFO - Отправлено уведомление о падении AKITA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:04,847 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:04,848 - src.data_processing - INFO - Отправлено уведомление о падении AXS_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:04,960 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:04,964 - src.data_processing - INFO - Отправлено уведомление о падении YGG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:05,081 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:05,083 - src.data_processing - INFO - Отправлено уведомление о падении WNCG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:05,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:05,207 - src.data_processing - INFO - Отправлено уведомление о падении RACA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:05,314 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:05,316 - src.data_processing - INFO - Отправлено уведомление о падении TITAN_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:05,422 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:05,424 - src.data_processing - INFO - Отправлено уведомление о падении LUNC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:05,568 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:05,568 - src.data_processing - INFO - Отправлено уведомление о падении STORJ_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:05,686 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:05,688 - src.data_processing - INFO - Отправлено уведомление о падении GPT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:05,806 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:05,807 - src.data_processing - INFO - Отправлено уведомление о падении WOJAK_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:05,920 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:05,923 - src.data_processing - INFO - Отправлено уведомление о падении LZM_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:06,042 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:06,043 - src.data_processing - INFO - Отправлено уведомление о падении CAPO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:06,166 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:06,169 - src.data_processing - INFO - Отправлено уведомление о падении LVL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:06,307 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:06,308 - src.data_processing - INFO - Отправлено уведомление о падении STT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:06,321 - src.data_processing - INFO - Монета TITTY_USDT восстановилась до исходного уровня.
+2024-10-07 17:24:06,445 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:06,448 - src.data_processing - INFO - Отправлено уведомление о падении MOG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:06,590 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:06,591 - src.data_processing - INFO - Отправлено уведомление о падении BYTE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:06,750 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:06,751 - src.data_processing - INFO - Отправлено уведомление о падении FLIP_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:06,931 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:06,932 - src.data_processing - INFO - Отправлено уведомление о падении DOVI_USDT на 50.0% для пользователя 402199357.
+2024-10-07 17:24:07,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:07,105 - src.data_processing - INFO - Отправлено уведомление о падении ZETA_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:07,115 - src.data_processing - INFO - Монета ICENETWORK_USDT восстановилась до исходного уровня.
+2024-10-07 17:24:07,253 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:07,253 - src.data_processing - INFO - Отправлено уведомление о падении MOBY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:07,398 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:07,399 - src.data_processing - INFO - Отправлено уведомление о падении BEOBLE_USDT на 50.0% для пользователя 402199357.
+2024-10-07 17:24:07,523 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:07,525 - src.data_processing - INFO - Отправлено уведомление о падении TYT_USDT на 50.0% для пользователя 402199357.
+2024-10-07 17:24:07,756 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:07,757 - src.data_processing - INFO - Отправлено уведомление о падении SYNC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:07,936 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:07,937 - src.data_processing - INFO - Отправлено уведомление о падении NGL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:08,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:08,167 - src.data_processing - INFO - Отправлено уведомление о падении PNUT_USDT на 50.0% для пользователя 402199357.
+2024-10-07 17:24:08,373 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:08,374 - src.data_processing - INFO - Отправлено уведомление о падении CWIF_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:08,806 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:08,807 - src.data_processing - INFO - Отправлено уведомление о падении GRUMPY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:12,120 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:12,121 - src.data_processing - INFO - Отправлено уведомление о падении HOBBES_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:12,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:12,282 - src.data_processing - INFO - Отправлено уведомление о падении PUPS_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:12,424 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:12,426 - src.data_processing - INFO - Отправлено уведомление о падении RIVUS_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:12,583 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:12,585 - src.data_processing - INFO - Отправлено уведомление о падении CREO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:12,797 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:12,798 - src.data_processing - INFO - Отправлено уведомление о падении REEE_USDT на 50.0% для пользователя 402199357.
+2024-10-07 17:24:12,921 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:12,922 - src.data_processing - INFO - Отправлено уведомление о падении NOHAT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:13,065 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:13,066 - src.data_processing - INFO - Отправлено уведомление о падении HODL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:13,197 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:13,198 - src.data_processing - INFO - Отправлено уведомление о падении MOTHER_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:13,318 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:13,319 - src.data_processing - INFO - Отправлено уведомление о падении MOTH_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:13,444 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:13,446 - src.data_processing - INFO - Отправлено уведомление о падении BIRDDOG_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:13,596 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:13,597 - src.data_processing - INFO - Отправлено уведомление о падении OPPIE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:13,742 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:13,744 - src.data_processing - INFO - Отправлено уведомление о падении MAGAPEPE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:13,863 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:13,864 - src.data_processing - INFO - Отправлено уведомление о падении BULEI_USDT на 50.0% для пользователя 402199357.
+2024-10-07 17:24:13,934 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:24:13,987 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:13,988 - src.data_processing - INFO - Отправлено уведомление о падении CHIPPY_USDT на 50.0% для пользователя 402199357.
+2024-10-07 17:24:14,100 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:14,101 - src.data_processing - INFO - Отправлено уведомление о падении DED_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:14,231 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:14,232 - src.data_processing - INFO - Отправлено уведомление о падении MOCA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:14,349 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:14,351 - src.data_processing - INFO - Отправлено уведомление о падении FISH_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:14,478 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:14,479 - src.data_processing - INFO - Отправлено уведомление о падении MOYA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:14,597 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:14,599 - src.data_processing - INFO - Отправлено уведомление о падении NEIRO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:14,715 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:14,717 - src.data_processing - INFO - Отправлено уведомление о падении DELON_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:14,852 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:14,853 - src.data_processing - INFO - Отправлено уведомление о падении TRONY_USDT на 50.0% для пользователя 402199357.
+2024-10-07 17:24:15,021 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:15,023 - src.data_processing - INFO - Отправлено уведомление о падении YORI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:15,184 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:15,186 - src.data_processing - INFO - Отправлено уведомление о падении CATBSC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:15,327 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:15,328 - src.data_processing - INFO - Отправлено уведомление о падении MUNCAT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:15,442 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:15,445 - src.data_processing - INFO - Отправлено уведомление о падении TOPCAT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:15,612 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:15,613 - src.data_processing - INFO - Отправлено уведомление о падении MAD_USDT на 50.0% для пользователя 402199357.
+2024-10-07 17:24:15,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:15,754 - src.data_processing - INFO - Отправлено уведомление о падении FREEDUROV_USDT на 50.0% для пользователя 402199357.
+2024-10-07 17:24:15,889 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:15,889 - src.data_processing - INFO - Отправлено уведомление о падении EDOGE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:16,063 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:16,064 - src.data_processing - INFO - Отправлено уведомление о падении MOODENG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:16,187 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:16,188 - src.data_processing - INFO - Отправлено уведомление о падении DOGE1_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:19,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:19,428 - src.data_processing - INFO - Отправлено уведомление о падении HARAMBE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:19,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:19,632 - src.data_processing - INFO - Отправлено уведомление о падении SUNPUNK_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:19,840 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:19,844 - src.data_processing - INFO - Отправлено уведомление о падении VIKITA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:20,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:20,310 - src.data_processing - INFO - Отправлено уведомление о падении MORTI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:20,484 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:20,487 - src.data_processing - INFO - Отправлено уведомление о падении THREEAC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:20,648 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:20,649 - src.data_processing - INFO - Отправлено уведомление о падении SDOGE_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:24:20,819 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:20,821 - src.data_processing - INFO - Отправлено уведомление о падении NEIROSOL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:24:21,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:24:24,027 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:24:34,123 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:24:44,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:24:54,353 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:25:04,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:25:14,601 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:40:55,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-07 17:40:55,364 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-07 17:40:55,367 - telegram.ext.Application - INFO - Application started
+2024-10-07 17:41:03,429 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:41:03,834 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:06,361 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:41:06,573 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 17:41:06,780 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 17:41:14,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:41:15,928 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 17:41:15,975 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 17:41:16,336 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:16,337 - src.data_processing - INFO - Отправлено уведомление о падении CVC_BTC на 10.0% для пользователя 402199357.
+2024-10-07 17:41:16,453 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:16,453 - src.data_processing - INFO - Отправлено уведомление о падении PRQ_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:16,602 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:16,602 - src.data_processing - INFO - Отправлено уведомление о падении SUSHI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:16,727 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:16,729 - src.data_processing - INFO - Отправлено уведомление о падении FUND_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:16,858 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:16,859 - src.data_processing - INFO - Отправлено уведомление о падении AKITA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:17,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:17,016 - src.data_processing - INFO - Отправлено уведомление о падении AXS_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:17,129 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:17,131 - src.data_processing - INFO - Отправлено уведомление о падении YGG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:17,277 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:17,277 - src.data_processing - INFO - Отправлено уведомление о падении WNCG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:17,420 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:17,421 - src.data_processing - INFO - Отправлено уведомление о падении RACA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:17,582 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:17,582 - src.data_processing - INFO - Отправлено уведомление о падении TITAN_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:17,734 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:17,735 - src.data_processing - INFO - Отправлено уведомление о падении LUNC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:17,885 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:17,886 - src.data_processing - INFO - Отправлено уведомление о падении STORJ_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:18,083 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:18,083 - src.data_processing - INFO - Отправлено уведомление о падении GPT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:18,215 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:18,217 - src.data_processing - INFO - Отправлено уведомление о падении WOJAK_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:18,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:18,346 - src.data_processing - INFO - Отправлено уведомление о падении LZM_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:18,507 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:18,508 - src.data_processing - INFO - Отправлено уведомление о падении CAPO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:18,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:18,632 - src.data_processing - INFO - Отправлено уведомление о падении LVL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:18,761 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:18,763 - src.data_processing - INFO - Отправлено уведомление о падении STT_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:18,882 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:18,883 - src.data_processing - INFO - Отправлено уведомление о падении MOG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:18,893 - src.data_processing - INFO - Монета BYTE_USDT восстановилась до исходного уровня.
+2024-10-07 17:41:19,083 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:19,084 - src.data_processing - INFO - Отправлено уведомление о падении FLIP_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:19,296 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:19,297 - src.data_processing - INFO - Отправлено уведомление о падении BFIC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:19,549 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:19,551 - src.data_processing - INFO - Отправлено уведомление о падении DOVI_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:19,795 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:19,797 - src.data_processing - INFO - Отправлено уведомление о падении ZETA_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:19,974 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:19,975 - src.data_processing - INFO - Отправлено уведомление о падении MOBY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:20,162 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:20,165 - src.data_processing - INFO - Отправлено уведомление о падении BEOBLE_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:20,330 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:20,331 - src.data_processing - INFO - Отправлено уведомление о падении TYT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:20,507 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:20,507 - src.data_processing - INFO - Отправлено уведомление о падении SYNC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:20,667 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:20,668 - src.data_processing - INFO - Отправлено уведомление о падении NGL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:20,817 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:20,818 - src.data_processing - INFO - Отправлено уведомление о падении PNUT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:20,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:20,970 - src.data_processing - INFO - Отправлено уведомление о падении CWIF_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:21,088 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:21,089 - src.data_processing - INFO - Отправлено уведомление о падении GRUMPY_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:24,296 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:24,297 - src.data_processing - INFO - Отправлено уведомление о падении HOBBES_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:24,430 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:24,430 - src.data_processing - INFO - Отправлено уведомление о падении PUPS_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:24,595 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:24,597 - src.data_processing - INFO - Отправлено уведомление о падении RIVUS_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:24,713 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:24,714 - src.data_processing - INFO - Отправлено уведомление о падении CREO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:24,831 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:24,833 - src.data_processing - INFO - Отправлено уведомление о падении BUNNY_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:24,969 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:24,971 - src.data_processing - INFO - Отправлено уведомление о падении REEE_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:25,104 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:25,105 - src.data_processing - INFO - Отправлено уведомление о падении NOHAT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:25,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:25,224 - src.data_processing - INFO - Отправлено уведомление о падении HODL_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:25,347 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:25,348 - src.data_processing - INFO - Отправлено уведомление о падении MOTHER_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:25,553 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:25,554 - src.data_processing - INFO - Отправлено уведомление о падении MOTH_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:25,716 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:25,717 - src.data_processing - INFO - Отправлено уведомление о падении BIRDDOG_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:25,835 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:25,835 - src.data_processing - INFO - Отправлено уведомление о падении OPPIE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:25,995 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:25,997 - src.data_processing - INFO - Отправлено уведомление о падении MAGAPEPE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:26,071 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:41:26,112 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:26,112 - src.data_processing - INFO - Отправлено уведомление о падении BULEI_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:26,240 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:26,241 - src.data_processing - INFO - Отправлено уведомление о падении CHIPPY_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:26,383 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:26,384 - src.data_processing - INFO - Отправлено уведомление о падении DED_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:26,523 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:26,524 - src.data_processing - INFO - Отправлено уведомление о падении MOCA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:26,650 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:26,651 - src.data_processing - INFO - Отправлено уведомление о падении FISH_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:26,790 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:26,791 - src.data_processing - INFO - Отправлено уведомление о падении MOYA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:26,929 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:26,930 - src.data_processing - INFO - Отправлено уведомление о падении NEIRO_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:27,057 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:27,059 - src.data_processing - INFO - Отправлено уведомление о падении DELON_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:27,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:27,197 - src.data_processing - INFO - Отправлено уведомление о падении TRONY_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:27,316 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:27,317 - src.data_processing - INFO - Отправлено уведомление о падении YORI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:27,705 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:27,706 - src.data_processing - INFO - Отправлено уведомление о падении CATBSC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:27,867 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:27,868 - src.data_processing - INFO - Отправлено уведомление о падении MUNCAT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:28,016 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:28,017 - src.data_processing - INFO - Отправлено уведомление о падении TOPCAT_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:28,190 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:28,196 - src.data_processing - INFO - Отправлено уведомление о падении MAD_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:28,367 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:28,368 - src.data_processing - INFO - Отправлено уведомление о падении FREEDUROV_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:28,557 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:28,560 - src.data_processing - INFO - Отправлено уведомление о падении EDOGE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:28,719 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:28,720 - src.data_processing - INFO - Отправлено уведомление о падении MOODENG_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:31,960 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:31,963 - src.data_processing - INFO - Отправлено уведомление о падении DOGE1_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:32,095 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:32,096 - src.data_processing - INFO - Отправлено уведомление о падении HARAMBE_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:32,217 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:32,218 - src.data_processing - INFO - Отправлено уведомление о падении SUNPUNK_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:32,329 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:32,329 - src.data_processing - INFO - Отправлено уведомление о падении VIKITA_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:32,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:32,484 - src.data_processing - INFO - Отправлено уведомление о падении MORTI_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:32,618 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:32,618 - src.data_processing - INFO - Отправлено уведомление о падении HANA_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:32,770 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:32,771 - src.data_processing - INFO - Отправлено уведомление о падении THREEAC_USDT на 10.0% для пользователя 402199357.
+2024-10-07 17:41:32,877 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:32,878 - src.data_processing - INFO - Отправлено уведомление о падении SDOGE_USDT на 30.0% для пользователя 402199357.
+2024-10-07 17:41:33,257 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 17:41:36,162 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:41:46,247 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:41:56,599 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:42:06,759 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:42:16,838 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:42:26,937 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:42:37,028 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:42:47,128 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:42:57,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:43:07,322 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:43:17,426 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:43:27,527 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:43:37,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:43:47,706 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:43:57,803 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:44:07,903 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:44:17,989 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:44:28,075 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:44:38,156 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:44:48,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:44:58,337 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:45:08,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:45:18,517 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 17:45:28,609 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:09:22,123 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-07 18:09:22,218 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-07 18:09:22,222 - telegram.ext.Application - INFO - Application started
+2024-10-07 18:09:32,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:09:40,427 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:09:40,773 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 18:09:42,999 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:09:43,123 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 18:09:43,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 18:09:50,894 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:09:51,298 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 18:09:53,595 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:09:53,690 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 18:09:53,824 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 18:10:03,698 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:10:05,310 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:10:06,232 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 18:10:06,267 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 18:10:06,278 - src.data_processing - INFO - Монета BUNNY_USDT восстановилась до исходного уровня.
+2024-10-07 18:10:06,286 - src.data_processing - INFO - Монета MOTH_USDT восстановилась до исходного уровня.
+2024-10-07 18:10:06,293 - src.data_processing - INFO - Монета DELON_USDT восстановилась до исходного уровня.
+2024-10-07 18:10:06,301 - src.data_processing - INFO - Монета SUNPUNK_USDT восстановилась до исходного уровня.
+2024-10-07 18:10:06,306 - src.data_processing - INFO - Монета HANA_USDT восстановилась до исходного уровня.
+2024-10-07 18:10:06,769 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 18:10:16,395 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:10:26,515 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:10:36,897 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:10:46,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:10:57,062 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:11:07,163 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:11:17,257 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:11:27,355 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:11:37,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:11:47,547 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:11:57,666 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:12:07,758 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:12:17,854 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:12:27,948 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:12:38,048 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:12:48,122 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:12:58,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:13:08,304 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:13:18,403 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:13:28,484 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:13:38,612 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:13:48,714 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:13:58,805 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:14:08,929 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:14:19,020 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:14:29,115 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:14:39,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:14:49,286 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:14:59,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:15:09,478 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:15:12,129 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:15:13,575 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 18:15:13,625 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 18:15:14,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 18:15:23,719 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:15:33,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:15:43,915 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:15:54,005 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:16:04,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:16:14,250 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:16:24,371 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:16:34,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:16:44,568 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:16:54,666 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:17:04,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:17:14,855 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:17:24,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:17:35,069 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:17:45,159 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:17:55,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:18:05,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:18:15,431 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:18:25,521 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:18:35,624 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:18:45,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:18:55,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:19:05,909 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:19:16,000 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:19:26,115 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:19:36,211 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:19:46,301 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:19:56,383 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:20:06,469 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:20:16,559 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:20:26,655 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:20:37,016 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:20:47,107 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:20:57,197 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:21:07,289 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:21:17,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:21:27,467 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:21:52,757 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:22:02,843 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:22:12,928 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:22:23,004 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:22:33,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:22:43,150 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:22:53,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:23:03,342 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:23:13,419 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:23:23,546 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:23:33,660 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:23:43,806 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:23:53,884 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:24:03,966 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:24:14,049 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:24:24,138 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:24:34,232 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:24:44,320 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:24:54,433 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:25:04,541 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:25:14,629 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:25:24,729 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:25:34,806 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:25:44,906 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:25:55,022 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:26:05,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:26:15,235 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:26:25,318 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:26:35,415 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:26:45,494 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:26:55,598 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:27:05,679 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:27:15,799 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:27:25,939 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:27:36,010 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:27:46,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:27:56,270 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:28:06,347 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:28:16,428 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:28:26,507 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:28:36,632 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:28:46,718 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:28:56,860 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:29:06,948 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:29:17,020 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:29:27,109 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:29:37,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:29:47,276 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:29:57,352 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:30:07,431 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:30:17,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 18:30:27,585 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:30:23,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-07 19:30:23,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-07 19:30:23,641 - telegram.ext.Application - INFO - Application started
+2024-10-07 19:30:29,511 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:30:29,952 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:30:32,599 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:30:32,796 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 19:30:33,003 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 19:30:34,015 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 19:30:34,066 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 19:30:34,078 - src.data_processing - INFO - Монета AKITA_USDT восстановилась до исходного уровня.
+2024-10-07 19:30:34,086 - src.data_processing - INFO - Монета STORJ_USDT восстановилась до исходного уровня.
+2024-10-07 19:30:34,094 - src.data_processing - INFO - Монета GPT_USDT восстановилась до исходного уровня.
+2024-10-07 19:30:34,103 - src.data_processing - INFO - Монета WOJAK_USDT восстановилась до исходного уровня.
+2024-10-07 19:30:34,111 - src.data_processing - INFO - Монета SIX_USDT восстановилась до исходного уровня.
+2024-10-07 19:30:34,118 - src.data_processing - INFO - Монета SYNC_USDT восстановилась до исходного уровня.
+2024-10-07 19:30:34,124 - src.data_processing - INFO - Монета CWIF_USDT восстановилась до исходного уровня.
+2024-10-07 19:30:34,130 - src.data_processing - INFO - Монета OPPIE_USDT восстановилась до исходного уровня.
+2024-10-07 19:30:34,430 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:30:42,662 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:30:44,881 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:30:45,304 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:30:48,260 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:30:48,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 19:30:48,603 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 19:30:49,367 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 19:30:49,419 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 19:30:49,429 - src.data_processing - INFO - Монета THREEAC_USDT восстановилась до исходного уровня.
+2024-10-07 19:30:49,627 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:30:58,310 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:31:08,359 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:31:18,415 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:31:28,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:31:38,538 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:32:26,436 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-07 19:32:26,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-07 19:32:26,548 - telegram.ext.Application - INFO - Application started
+2024-10-07 19:32:30,447 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:32:30,540 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:32:34,006 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:32:34,140 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 19:32:34,306 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 19:32:35,024 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 19:32:35,074 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 19:32:35,535 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:32:44,053 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:32:44,672 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:32:44,934 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:32:46,851 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:32:46,922 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 19:32:47,095 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 19:32:47,870 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 19:32:47,902 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 19:32:48,247 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:32:55,401 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:32:55,677 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:32:57,386 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:32:57,452 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-07 19:32:57,533 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-07 19:32:58,247 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 19:32:58,301 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 19:32:58,519 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:33:03,725 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:33:04,291 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 19:33:04,324 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 19:33:04,706 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:33:06,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:33:07,008 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-07 19:33:07,057 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json
+2024-10-07 19:33:07,142 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-07 19:33:17,108 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:33:27,156 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:33:37,202 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-07 19:33:47,254 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
