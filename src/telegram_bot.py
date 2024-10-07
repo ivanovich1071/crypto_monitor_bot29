@@ -10,7 +10,7 @@ application = Application.builder().token(TELEGRAM_BOT_TOKEN).build()
 
 async def send_telegram_message(chat_id, message):
     """
-    Асинхронная функция для отправки сообщения пользователю в Telegram.
+    Отправляет сообщение пользователю в Telegram.
 
     :param chat_id: ID чата пользователя
     :param message: Текст сообщения
@@ -19,4 +19,3 @@ async def send_telegram_message(chat_id, message):
         await application.bot.send_message(chat_id=chat_id, text=message, parse_mode="HTML")
     except Exception as e:
         logger.error(f"Ошибка при отправке сообщения пользователю {chat_id}: {e}")
-

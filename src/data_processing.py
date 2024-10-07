@@ -19,16 +19,17 @@ async def find_significant_drops(ticker_data, user_thresholds, chat_id):
     dropped_coins = get_dropped_coins(chat_id)
     dropped_coins_dict = {coin.coin: coin.threshold for coin in dropped_coins}
 
-    # Предполагаем, что ticker_data — это список объектов
+    # Обрабатываем полученные данные тикеров
     for data in ticker_data:
         try:
             coin = data.get("symbol", "")  # Обрабатываем монету
-            percent_change = float(data.get("dailyChange", "0"))  # Изменение за 24 часа
+            percent_change = float(data.get("dailyChange", "0")) * 100  # Изменение за 24 часа в %
             volume = data.get("amount", "0")  # Объем торгов
 
             # Проверка на падение монет
             for threshold in user_thresholds:
                 if percent_change <= -threshold:
+                    # Добавляем монету в отслеживаемые падения, если она новая или ее порог изменился
                     if coin not in dropped_coins_dict or dropped_coins_dict[coin] < threshold:
                         add_dropped_coin(chat_id, coin, threshold)
                         new_drops.setdefault(threshold, []).append({
@@ -39,7 +40,6 @@ async def find_significant_drops(ticker_data, user_thresholds, chat_id):
                     # Отправляем уведомление о новом падении
                     message = f"📉 Монета {coin} упала более чем на {threshold}%.\nОбъем торгов: {volume}"
                     await send_telegram_message(chat_id, message)
-
                     logger.info(f"Отправлено уведомление о падении {coin} на {threshold}% для пользователя {chat_id}.")
                     break  # Выходим из цикла после добавления
 
@@ -53,5 +53,4 @@ async def find_significant_drops(ticker_data, user_thresholds, chat_id):
             logger.error(f"Ошибка обработки данных для монеты {coin}.")
             continue
 
-    # Возвращаем новые падения и восстановленные монеты
     return new_drops, recovered_coins
