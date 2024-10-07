@@ -14,9 +14,6 @@ POLONIEX_API_URL = os.getenv('POLONIEX_API_URL')
 # Настройка логирования для этого модуля
 logger = logging.getLogger(__name__)
 
-# Путь для сохранения JSON-файла
-JSON_FILE_PATH = 'poloniex_ticker_data.json'
-
 @retry(
     stop=stop_after_attempt(3),
     wait=wait_exponential(multiplier=1, min=4, max=10),
@@ -40,17 +37,16 @@ async def fetch_ticker_data():
 async def get_ticker_data():
     """
     Получает данные о тикерах с Poloniex API с обработкой ошибок и повторными попытками.
-    Сохраняет результат в JSON файл.
     :return: Словарь с данными тикеров или пустой словарь при ошибке.
     """
     try:
         data = await fetch_ticker_data()
         logger.info("Успешно получены данные тикеров с Poloniex.")
 
-        # Сохранение JSON-ответа в файл
-        with open(JSON_FILE_PATH, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-        logger.info(f"Данные сохранены в файл {JSON_FILE_PATH}")
+        # Сохранение данных в JSON файл для отладки
+        with open("poloniex_ticker_data.json", "w") as json_file:
+            json.dump(data, json_file, indent=4)
+        logger.info("Данные сохранены в файл poloniex_ticker_data.json.")
 
         return data
     except RequestException as e:
@@ -61,19 +57,3 @@ async def get_ticker_data():
         logger.error(f"Неизвестная ошибка: {e}")
 
     return {}
-
-def print_saved_ticker_data():
-    """
-    Чтение сохраненного JSON-файла и вывод содержимого в консоль.
-    """
-    try:
-        with open(JSON_FILE_PATH, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            print("Содержимое JSON-ответа из файла:")
-            print(json.dumps(data, indent=4, ensure_ascii=False))
-    except FileNotFoundError:
-        logger.error(f"Файл {JSON_FILE_PATH} не найден.")
-    except json.JSONDecodeError:
-        logger.error(f"Ошибка при чтении или декодировании данных из файла {JSON_FILE_PATH}.")
-    except Exception as e:
-        logger.error(f"Неизвестная ошибка при чтении файла {JSON_FILE_PATH}: {e}")

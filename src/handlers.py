@@ -1,7 +1,7 @@
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackContext, CommandHandler, CallbackQueryHandler, Application
-from src.database import add_user, update_user_thresholds, get_user_thresholds, get_dropped_coins, add_dropped_coin, remove_dropped_coin
+from src.database import add_user, update_user_thresholds, get_user_thresholds
 from src.poloniex_api import get_ticker_data
 from src.data_processing import find_significant_drops
 from src.telegram_bot import send_telegram_message
@@ -42,29 +42,6 @@ async def button(update: Update, context: CallbackContext):
     thresholds = get_user_thresholds(chat_id)
     threshold_text = ", ".join([f">{t}%" for t in thresholds]) if thresholds else "не выбраны"
     await query.edit_message_text(text=f"Вы выбрали диапазоны изменения: {threshold_text}.")
-
-    # Получаем данные тикера и проверяем падения монет
-    ticker_data = await get_ticker_data()
-    if ticker_data:
-        new_drops, recovered_coins = await find_significant_drops(ticker_data, thresholds, chat_id)
-        message = ""
-
-        if new_drops:
-            message += "📉 Найдены монеты с резким падением:\n"
-            for threshold, coins in new_drops.items():
-                message += f"\n🔹 Изменение более чем на {threshold}%:\n"
-                for coin in coins:
-                    message += f"• {coin['name']} - Объем торгов: {coin['volume']}\n"
-
-        if recovered_coins:
-            message += "\n📈 Монеты восстановились до исходного уровня или выше:\n"
-            for coin in recovered_coins:
-                message += f"• {coin}\n"
-
-        if not message:
-            message = "Нет монет, соответствующих выбранным диапазонам."
-
-        await send_telegram_message(chat_id, message)
 
 # Обработчик команды /report
 async def report(update: Update, context: CallbackContext):
