@@ -2470,3 +2470,361 @@ TypeError: object NoneType can't be used in 'await' expression
 2024-10-07 20:50:37,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
 2024-10-07 20:50:47,388 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
 2024-10-07 20:50:57,448 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:24:44,826 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-08 08:24:44,894 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-08 08:24:44,897 - telegram.ext.Application - INFO - Application started
+2024-10-08 08:24:55,092 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:24:55,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:24:55,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:24:59,140 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:24:59,245 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-08 08:24:59,410 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-08 08:25:08,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:25:08,663 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-08 08:25:08,716 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json.
+2024-10-08 08:25:08,939 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:08,940 - src.data_processing - INFO - Отправлено уведомление о падении ARDR_BTC на 10.0% для пользователя 402199357.
+2024-10-08 08:25:08,949 - src.data_processing - INFO - Монета CVC_BTC восстановилась до исходного уровня.
+2024-10-08 08:25:09,097 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:09,100 - src.data_processing - INFO - Отправлено уведомление о падении DIA_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:09,198 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:09,199 - src.data_processing - INFO - Отправлено уведомление о падении PRQ_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:09,304 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:09,305 - src.data_processing - INFO - Отправлено уведомление о падении FCT2_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:09,315 - src.data_processing - INFO - Монета SUSHI_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:09,404 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:09,405 - src.data_processing - INFO - Отправлено уведомление о падении FUND_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:09,509 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:09,513 - src.data_processing - INFO - Отправлено уведомление о падении FTT_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:09,641 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:09,641 - src.data_processing - INFO - Отправлено уведомление о падении RUNE_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:09,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:09,734 - src.data_processing - INFO - Отправлено уведомление о падении AXS_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:09,832 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:09,834 - src.data_processing - INFO - Отправлено уведомление о падении YGG_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:09,927 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:09,928 - src.data_processing - INFO - Отправлено уведомление о падении WNCG_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:10,019 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:10,020 - src.data_processing - INFO - Отправлено уведомление о падении TITAN_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:10,122 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:10,123 - src.data_processing - INFO - Отправлено уведомление о падении LUNC_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:10,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:10,222 - src.data_processing - INFO - Отправлено уведомление о падении ARDR_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:10,323 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:10,324 - src.data_processing - INFO - Отправлено уведомление о падении BONK_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:10,338 - src.data_processing - INFO - Монета LZM_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:10,426 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:10,427 - src.data_processing - INFO - Отправлено уведомление о падении TURBO_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:10,543 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:10,547 - src.data_processing - INFO - Отправлено уведомление о падении BOB_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:10,705 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:10,705 - src.data_processing - INFO - Отправлено уведомление о падении LVL_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:10,807 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:10,808 - src.data_processing - INFO - Отправлено уведомление о падении JESUS_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:10,914 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:10,915 - src.data_processing - INFO - Отправлено уведомление о падении ORDI_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:10,924 - src.data_processing - INFO - Монета PEPE20_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:11,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:11,016 - src.data_processing - INFO - Отправлено уведомление о падении MOG_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:11,109 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:11,110 - src.data_processing - INFO - Отправлено уведомление о падении APX1_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:11,120 - src.data_processing - INFO - Монета ETF_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:11,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:11,222 - src.data_processing - INFO - Отправлено уведомление о падении BYTE_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:11,311 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:11,313 - src.data_processing - INFO - Отправлено уведомление о падении FLIP_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:11,396 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:11,399 - src.data_processing - INFO - Отправлено уведомление о падении DOVI_USDT на 50.0% для пользователя 402199357.
+2024-10-08 08:25:11,498 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:11,500 - src.data_processing - INFO - Отправлено уведомление о падении COQ_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:11,583 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:11,584 - src.data_processing - INFO - Отправлено уведомление о падении EGG_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:11,676 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:11,678 - src.data_processing - INFO - Отправлено уведомление о падении HONK_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:11,688 - src.data_processing - INFO - Монета ZETA_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:11,775 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:11,776 - src.data_processing - INFO - Отправлено уведомление о падении ICENETWORK_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:11,951 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:11,952 - src.data_processing - INFO - Отправлено уведомление о падении MOBY_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:12,091 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:12,092 - src.data_processing - INFO - Отправлено уведомление о падении FORK_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:12,172 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:12,174 - src.data_processing - INFO - Отправлено уведомление о падении GPU_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:15,269 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:15,273 - src.data_processing - INFO - Отправлено уведомление о падении NGL_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:15,292 - src.data_processing - INFO - Монета PNUT_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:15,391 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:15,392 - src.data_processing - INFO - Отправлено уведомление о падении GRUMPY_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:15,509 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:15,512 - src.data_processing - INFO - Отправлено уведомление о падении YAI_USDT на 50.0% для пользователя 402199357.
+2024-10-08 08:25:15,648 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:15,649 - src.data_processing - INFO - Отправлено уведомление о падении PUPS_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:15,659 - src.data_processing - INFO - Монета RIVUS_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:15,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:15,757 - src.data_processing - INFO - Отправлено уведомление о падении OLM_USDT на 50.0% для пользователя 402199357.
+2024-10-08 08:25:15,868 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:15,869 - src.data_processing - INFO - Отправлено уведомление о падении CREO_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:15,968 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:15,970 - src.data_processing - INFO - Отправлено уведомление о падении BUNNY_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:15,983 - src.data_processing - INFO - Монета REEE_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:16,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:16,096 - src.data_processing - INFO - Отправлено уведомление о падении AMCSOL_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:16,106 - src.data_processing - INFO - Монета NOHAT_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:16,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:16,197 - src.data_processing - INFO - Отправлено уведомление о падении HODL_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:16,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:16,295 - src.data_processing - INFO - Отправлено уведомление о падении MOTHER_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:16,304 - src.data_processing - INFO - Монета MAGAPEPE_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:16,315 - src.data_processing - INFO - Монета BULEI_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:16,424 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:16,425 - src.data_processing - INFO - Отправлено уведомление о падении DUKO_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:16,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:16,546 - src.data_processing - INFO - Отправлено уведомление о падении TROG_USDT на 50.0% для пользователя 402199357.
+2024-10-08 08:25:16,554 - src.data_processing - INFO - Монета CHIPPY_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:16,688 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:16,690 - src.data_processing - INFO - Отправлено уведомление о падении DED_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:16,709 - src.data_processing - INFO - Монета MOCA_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:16,823 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:16,824 - src.data_processing - INFO - Отправлено уведомление о падении FISH_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:16,995 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:16,997 - src.data_processing - INFO - Отправлено уведомление о падении LWOLF_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:17,183 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:17,184 - src.data_processing - INFO - Отправлено уведомление о падении GINNAN_USDT на 50.0% для пользователя 402199357.
+2024-10-08 08:25:17,315 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:17,316 - src.data_processing - INFO - Отправлено уведомление о падении MOYA_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:17,440 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:17,441 - src.data_processing - INFO - Отправлено уведомление о падении MSI_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:17,557 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:17,559 - src.data_processing - INFO - Отправлено уведомление о падении NEIRO_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:17,571 - src.data_processing - INFO - Монета DELON_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:17,584 - src.data_processing - INFO - Монета TRONY_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:17,762 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:17,763 - src.data_processing - INFO - Отправлено уведомление о падении YORI_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:17,921 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:17,922 - src.data_processing - INFO - Отправлено уведомление о падении TBULL_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:18,088 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:18,090 - src.data_processing - INFO - Отправлено уведомление о падении SUNCAT_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:18,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:18,274 - src.data_processing - INFO - Отправлено уведомление о падении CCCTRON_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:18,492 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:18,495 - src.data_processing - INFO - Отправлено уведомление о падении BOG_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:18,506 - src.data_processing - INFO - Монета CATBSC_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:18,742 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:18,745 - src.data_processing - INFO - Отправлено уведомление о падении MUNCAT_USDT на 50.0% для пользователя 402199357.
+2024-10-08 08:25:18,788 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:25:18,944 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:18,945 - src.data_processing - INFO - Отправлено уведомление о падении ELMO_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:19,081 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:19,083 - src.data_processing - INFO - Отправлено уведомление о падении TOPCAT_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:19,197 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:19,199 - src.data_processing - INFO - Отправлено уведомление о падении MAD_USDT на 50.0% для пользователя 402199357.
+2024-10-08 08:25:19,208 - src.data_processing - INFO - Монета FREEDUROV_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:19,221 - src.data_processing - INFO - Монета TRONBULL_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:19,230 - src.data_processing - INFO - Монета MOODENG_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:19,317 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:19,319 - src.data_processing - INFO - Отправлено уведомление о падении CATE_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:19,418 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:19,421 - src.data_processing - INFO - Отправлено уведомление о падении HARAMBE_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:19,445 - src.data_processing - INFO - Монета XD_USDT восстановилась до исходного уровня.
+2024-10-08 08:25:22,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:22,612 - src.data_processing - INFO - Отправлено уведомление о падении VIKITA_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:22,711 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:22,712 - src.data_processing - INFO - Отправлено уведомление о падении MORTI_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:22,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:22,817 - src.data_processing - INFO - Отправлено уведомление о падении INCEPT_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:22,918 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:22,919 - src.data_processing - INFO - Отправлено уведомление о падении OMOCHI_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:25:23,005 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:23,006 - src.data_processing - INFO - Отправлено уведомление о падении SDOGE_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:25:23,257 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:25:28,849 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:25:38,914 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:25:48,976 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:25:59,065 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:26:09,132 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:26:19,191 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:26:29,256 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:26:39,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:26:49,409 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:26:59,478 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:55:15,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-08 08:55:15,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-08 08:55:15,615 - telegram.ext.Application - INFO - Application started
+2024-10-08 08:55:21,042 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:55:21,424 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:55:23,439 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:55:23,652 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-08 08:55:23,903 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-08 08:55:33,253 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:55:34,042 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-08 08:55:34,109 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json.
+2024-10-08 08:55:34,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:55:43,330 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:55:43,743 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:55:45,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:55:45,354 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-08 08:55:45,452 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-08 08:55:51,297 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:55:51,953 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-08 08:55:52,016 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json.
+2024-10-08 08:55:52,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:02,087 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:56:12,165 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:56:22,248 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:56:30,872 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getMe "HTTP/1.1 200 OK"
+2024-10-08 08:56:30,950 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-08 08:56:30,953 - telegram.ext.Application - INFO - Application started
+2024-10-08 08:56:37,054 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:56:37,379 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:39,668 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:56:39,829 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/answerCallbackQuery "HTTP/1.1 200 OK"
+2024-10-08 08:56:39,985 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/editMessageText "HTTP/1.1 200 OK"
+2024-10-08 08:56:47,724 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:56:48,518 - src.poloniex_api - INFO - Успешно получены данные тикеров с Poloniex.
+2024-10-08 08:56:48,590 - src.poloniex_api - INFO - Данные сохранены в файл poloniex_ticker_data.json.
+2024-10-08 08:56:48,945 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:48,946 - src.data_processing - INFO - Отправлено уведомление о падении ARDR_BTC на 10.0% для пользователя 402199357.
+2024-10-08 08:56:49,173 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:49,174 - src.data_processing - INFO - Отправлено уведомление о падении DIA_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:49,425 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:49,427 - src.data_processing - INFO - Отправлено уведомление о падении PRQ_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:49,629 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:49,630 - src.data_processing - INFO - Отправлено уведомление о падении FCT2_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:49,803 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:49,804 - src.data_processing - INFO - Отправлено уведомление о падении FUND_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:49,968 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:49,969 - src.data_processing - INFO - Отправлено уведомление о падении FTT_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:50,102 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:50,105 - src.data_processing - INFO - Отправлено уведомление о падении RUNE_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:50,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:50,260 - src.data_processing - INFO - Отправлено уведомление о падении AXS_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:50,424 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:50,425 - src.data_processing - INFO - Отправлено уведомление о падении YGG_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:50,543 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:50,544 - src.data_processing - INFO - Отправлено уведомление о падении WNCG_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:50,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:50,639 - src.data_processing - INFO - Отправлено уведомление о падении TITAN_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:50,727 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:50,728 - src.data_processing - INFO - Отправлено уведомление о падении LUNC_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:50,819 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:50,822 - src.data_processing - INFO - Отправлено уведомление о падении ARDR_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:50,933 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:50,935 - src.data_processing - INFO - Отправлено уведомление о падении BONK_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:51,151 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:51,151 - src.data_processing - INFO - Отправлено уведомление о падении TURBO_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:51,240 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:51,241 - src.data_processing - INFO - Отправлено уведомление о падении BOB_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:51,328 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:51,329 - src.data_processing - INFO - Отправлено уведомление о падении LVL_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:51,415 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:51,416 - src.data_processing - INFO - Отправлено уведомление о падении JESUS_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:51,515 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:51,516 - src.data_processing - INFO - Отправлено уведомление о падении ORDI_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:51,607 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:51,608 - src.data_processing - INFO - Отправлено уведомление о падении MOG_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:51,706 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:51,707 - src.data_processing - INFO - Отправлено уведомление о падении APX1_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:51,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:51,817 - src.data_processing - INFO - Отправлено уведомление о падении RATS_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:51,917 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:51,922 - src.data_processing - INFO - Отправлено уведомление о падении PMG_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:52,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:52,014 - src.data_processing - INFO - Отправлено уведомление о падении BYTE_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:52,107 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:52,108 - src.data_processing - INFO - Отправлено уведомление о падении FLIP_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:52,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:52,197 - src.data_processing - INFO - Отправлено уведомление о падении DOVI_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:52,281 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:52,281 - src.data_processing - INFO - Отправлено уведомление о падении COQ_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:52,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:52,374 - src.data_processing - INFO - Отправлено уведомление о падении EGG_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:52,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:52,465 - src.data_processing - INFO - Отправлено уведомление о падении HONK_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:52,564 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:52,565 - src.data_processing - INFO - Отправлено уведомление о падении ICENETWORK_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:52,720 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:52,722 - src.data_processing - INFO - Отправлено уведомление о падении MOBY_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:55,843 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:55,844 - src.data_processing - INFO - Отправлено уведомление о падении BEOBLE_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:55,929 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:55,930 - src.data_processing - INFO - Отправлено уведомление о падении FORK_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:56,038 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:56,039 - src.data_processing - INFO - Отправлено уведомление о падении GPU_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:56,123 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:56,124 - src.data_processing - INFO - Отправлено уведомление о падении NGL_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:56,210 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:56,212 - src.data_processing - INFO - Отправлено уведомление о падении GRUMPY_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:56,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:56,302 - src.data_processing - INFO - Отправлено уведомление о падении YAI_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:56,414 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:56,416 - src.data_processing - INFO - Отправлено уведомление о падении PUPS_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:56,504 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:56,505 - src.data_processing - INFO - Отправлено уведомление о падении OLM_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:56,587 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:56,588 - src.data_processing - INFO - Отправлено уведомление о падении CREO_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:56,677 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:56,678 - src.data_processing - INFO - Отправлено уведомление о падении BUNNY_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:56,772 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:56,773 - src.data_processing - INFO - Отправлено уведомление о падении AMCSOL_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:56,858 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:56,859 - src.data_processing - INFO - Отправлено уведомление о падении HODL_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:56,950 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:56,952 - src.data_processing - INFO - Отправлено уведомление о падении MOTHER_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:57,045 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:57,047 - src.data_processing - INFO - Отправлено уведомление о падении DUKO_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:57,146 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:57,146 - src.data_processing - INFO - Отправлено уведомление о падении TROG_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:57,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:57,244 - src.data_processing - INFO - Отправлено уведомление о падении XZK_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:57,363 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:57,365 - src.data_processing - INFO - Отправлено уведомление о падении DED_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:57,453 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:57,455 - src.data_processing - INFO - Отправлено уведомление о падении FISH_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:57,546 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:57,547 - src.data_processing - INFO - Отправлено уведомление о падении LWOLF_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:57,635 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:57,636 - src.data_processing - INFO - Отправлено уведомление о падении GINNAN_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:57,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:57,727 - src.data_processing - INFO - Отправлено уведомление о падении MOYA_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:57,812 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:57,813 - src.data_processing - INFO - Отправлено уведомление о падении MSI_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:57,914 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:57,915 - src.data_processing - INFO - Отправлено уведомление о падении NEIRO_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:58,005 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:58,006 - src.data_processing - INFO - Отправлено уведомление о падении YORI_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:58,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:58,097 - src.data_processing - INFO - Отправлено уведомление о падении TBULL_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:58,214 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:58,216 - src.data_processing - INFO - Отправлено уведомление о падении SUNCAT_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:58,354 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:58,356 - src.data_processing - INFO - Отправлено уведомление о падении CCCTRON_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:58,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:58,470 - src.data_processing - INFO - Отправлено уведомление о падении BOG_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:56:58,600 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:58,602 - src.data_processing - INFO - Отправлено уведомление о падении MUNCAT_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:56:58,670 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:56:58,745 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:56:58,745 - src.data_processing - INFO - Отправлено уведомление о падении ELMO_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:57:01,865 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:57:01,867 - src.data_processing - INFO - Отправлено уведомление о падении TOPCAT_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:57:01,957 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:57:01,959 - src.data_processing - INFO - Отправлено уведомление о падении MAD_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:57:02,056 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:57:02,057 - src.data_processing - INFO - Отправлено уведомление о падении TOTHESUN_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:57:02,147 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:57:02,148 - src.data_processing - INFO - Отправлено уведомление о падении CATE_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:57:02,340 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:57:02,341 - src.data_processing - INFO - Отправлено уведомление о падении HARAMBE_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:57:02,442 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:57:02,443 - src.data_processing - INFO - Отправлено уведомление о падении VIKITA_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:57:02,523 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:57:02,524 - src.data_processing - INFO - Отправлено уведомление о падении MORTI_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:57:02,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:57:02,635 - src.data_processing - INFO - Отправлено уведомление о падении HANA_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:57:02,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:57:02,727 - src.data_processing - INFO - Отправлено уведомление о падении OMOCHI_USDT на 10.0% для пользователя 402199357.
+2024-10-08 08:57:02,818 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:57:02,820 - src.data_processing - INFO - Отправлено уведомление о падении SDOGE_USDT на 30.0% для пользователя 402199357.
+2024-10-08 08:57:03,093 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/sendMessage "HTTP/1.1 200 OK"
+2024-10-08 08:57:08,782 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
+2024-10-08 08:57:18,854 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7379043295:AAH8pugKRcZ2SLydVV_Ek6duqjCLxPBU49A/getUpdates "HTTP/1.1 200 OK"
